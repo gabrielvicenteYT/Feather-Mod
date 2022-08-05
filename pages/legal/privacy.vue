@@ -4,9 +4,9 @@
       <h1>Privacy Policy</h1>
 
       <p>
-        At Feather, accessible from https://modrinth.com, one of our main
+        At Feather, accessible from https://feather-app.vercel.app, one of our main
         priorities is the privacy of our visitors. This Privacy Policy document
-        contains types of information that is collected and recorded by Modrinth
+        contains types of information that is collected and recorded by Feather
         and how we use it.
       </p>
 
@@ -112,7 +112,7 @@
       </p>
 
       <p>
-        Note that Modrinth has no access to or control over these cookies that
+        Note that Feather has no access to or control over these cookies that
         are used by third-party advertisers.
       </p>
 
@@ -172,13 +172,13 @@
 export default {
   auth: false,
   head: {
-    title: 'Privacy - Feathr',
+    title: 'Privacy - Feather',
     meta: [
       {
         hid: 'description',
         name: 'description',
         content:
-          'The privacy policy of Feather, an open source modding platform. Modrinth currently supports Minecraft, including the forge and fabric mod loaders.',
+          'The privacy policy of Feather, an open source modding platform. Feather currently supports Minecraft, including the forge and fabric mod loaders.',
       },
       {
         hid: 'apple-mobile-web-app-title',
