@@ -3,13 +3,13 @@
     <div class="card">
       <h1>About</h1>
       <p>
-        Founded in 2020, Modrinth was created to provide modders with an open
+        Founded in 2020, Feather was created to provide modders with an open
         and intuitive platform to publish their projects on.
       </p>
 
       <p>
         Our primary goal is to be as open as possible, with all our code being
-        <a target="_blank" href="https://github.com/modrinth">open source</a>,
+        <a target="_blank" href="https://github.com/gabrielvicenteYT">open source</a>,
         while giving back to the modding community as much as possible.
       </p>
 
@@ -17,20 +17,20 @@
         While we still are in beta, we hope we can be a major modding platform
         for all modders.
       </p>
-      <h2>How does Modrinth work?</h2>
+      <h2>How does Feather work?</h2>
       <p>
-        Modrinth is not just a website: it is made of several different
+        Feather is not just a website: it is made of several different
         components that all come together to make a fast and flexible modding
         platform.
       </p>
 
       <p>
-        On the technical level, Modrinth is made up of two main components: the
+        On the technical level, Feather is made up of two main components: the
         Rust-based backend named
-        <a target="_blank" href="https://github.com/modrinth/labrinth"
-          >Labrinth</a
+        <a target="_blank" href="https://github.com/gabrielvicenteYT/Feather-Mod-API"
+          >Feather API</a
         >, and the Vue-based frontend named
-        <a target="_blank" href="https://github.com/modrinth/knossos">Knossos</a
+        <a target="_blank" href="https://github.com/gabrielvicenteYT/Feather-Mod">Feather</a
         >.
       </p>
 
