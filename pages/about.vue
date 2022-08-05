@@ -40,7 +40,7 @@
         <a target="_blank" href="https://github.com/modrinth/minotaur"
           >Minotaur</a
         >, a Gradle plugin for easily publishing mods to Feather, and
-        <a target="_blank" href="https://github.com/modrinth/minos">Minos</a>,
+        <a target="_blank" href="https://github.com/gabrielvicenteYT/Feather-Mod-Auth">feather-auth</a>,
         an authentication provider. All of Feather's code can be found on
         <a target="_blank" href="https://github.com/gabrielvicenteYT">our GitHub page</a
         >.
