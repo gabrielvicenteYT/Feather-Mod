@@ -76,7 +76,7 @@
             <h1>Constantly evolving and improving</h1>
             <p>
               We are always adding new features and working towards making
-              Modrinth have the friendliest user experience possible. Right now,
+              Feather have the friendliest user experience possible. Right now,
               we're working on finishing modpacks and finally paying out
               creators on our site. If you have any more feature ideas, feel
               free to join our
@@ -106,7 +106,7 @@
               <div class="feature completed">
                 <CheckIcon />
                 <p>
-                  <a href="https://docs.modrinth.com" target="_blank">
+                  <a href="https://docs.modrinth.app" target="_blank">
                     Completely documented API
                   </a>
                 </p>
