@@ -9,7 +9,7 @@ export default {
     ctx.params.projectType = 'modpack'
   },
   head: {
-    title: 'Modpacks - Modrinth',
+    title: 'Modpacks - Feather',
     meta: [
       {
         hid: 'apple-mobile-web-app-title',
@@ -24,7 +24,7 @@ export default {
       {
         hid: 'og:url',
         name: 'og:url',
-        content: `https://modrinth.com/modpacks`,
+        content: `https://feather-mod.vercel.app/modpacks`,
       },
     ],
   },
