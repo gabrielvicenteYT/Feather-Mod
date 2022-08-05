@@ -43,10 +43,10 @@ export const actions = {
     state.commit('loaded')
   },
   save(state, $cookies) {
-    $cookies.set('modrinth-consent', state.state.is_consent_given, parameters)
-    $cookies.set('modrinth-version', VERSION, parameters)
+    $cookies.set('feather-consent', state.state.is_consent_given, parameters)
+    $cookies.set('feather-version', VERSION, parameters)
     $cookies.set(
-      'modrinth-scopes',
+      'feather-scopes',
       state.state.scopes_allowed.join(','),
       parameters
     )
