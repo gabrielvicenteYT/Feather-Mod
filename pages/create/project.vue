@@ -885,7 +885,7 @@
                 :src="
                   item.preview
                     ? item.preview
-                    : 'https://cdn.modrinth.com/placeholder-banner.svg'
+                    : 'https://cdn.feather-mod.vercel.app/placeholder-banner.svg'
                 "
                 alt="preview-image"
               />
@@ -972,7 +972,7 @@
               Confused? See our
               <a
                 class="text-link"
-                href="https://blog.modrinth.com/licensing-guide/"
+                href="https://docs.feather-mod.vercel.app/licensing-guide/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -1183,7 +1183,7 @@ export default {
           this.license_url = ''
           break
         default:
-          this.license_url = `https://cdn.modrinth.com/licenses/${newValue.short}.txt`
+          this.license_url = `https://feather-mod.vercel.app/licenses/${newValue.short}.txt`
       }
     },
   },
