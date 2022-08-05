@@ -6,7 +6,7 @@
       <h2>1. Terms</h2>
 
       <p>
-        By accessing this Website, accessible from https://modrinth.com, you are
+        By accessing this Website, accessible from https://feather-mod.vercel.app, you are
         agreeing to be bound by these Website Terms and Conditions of Use and
         agree that you are responsible for the agreement with any applicable
         local laws. If you disagree with any of these terms, you are prohibited
@@ -142,9 +142,9 @@
       </ul>
 
       <p>
-        All Content on Modrinth must obey the
+        All Content on Feather must obey the
         <nuxt-link to="/legal/rules">Content Rules</nuxt-link>. Please be aware
-        of these Rules before uploading any Content to Modrinth.
+        of these Rules before uploading any Content to Feather.
       </p>
     </div>
   </div>
@@ -154,13 +154,13 @@
 export default {
   auth: false,
   head: {
-    title: 'Terms - Modrinth',
+    title: 'Terms - Feather',
     meta: [
       {
         hid: 'description',
         name: 'description',
         content:
-          'The Terms of Service of Modrinth, an open source modding platform. Modrinth currently supports Minecraft, including the forge and fabric mod loaders.',
+          'The Terms of Service of Feather, an open source modding platform. Feather currently supports Minecraft, including the forge and fabric mod loaders.',
       },
       {
         hid: 'apple-mobile-web-app-title',
@@ -175,7 +175,7 @@ export default {
       {
         hid: 'og:url',
         name: 'og:url',
-        content: `https://modrinth.com/legal/terms`,
+        content: `https://feather-mod.vercel.app/legal/terms`,
       },
     ],
   },
