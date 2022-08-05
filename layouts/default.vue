@@ -9,7 +9,7 @@
           }}</a>
         </section>
         <section class="logo column" role="presentation">
-          <NuxtLink to="/" aria-label="Modrinth home page">
+          <NuxtLink to="/" aria-label="Feather home page">
             <ModrinthLogo aria-hidden="true" class="text-logo" />
           </NuxtLink>
         </section>
@@ -250,10 +250,10 @@
       <Nuxt id="main" />
     </main>
     <footer>
-      <div class="logo-info" role="region" aria-label="Modrinth information">
-        <ModrinthLogo aria-hidden="true" class="text-logo" />
+      <div class="logo-info" role="region" aria-label="Feather information">
+        <FeatherLogo aria-hidden="true" class="text-logo" />
         <p>
-          Modrinth is
+          Feather is
           <a
             target="_blank"
             href="https://github.com/modrinth"
