@@ -1,9 +1,9 @@
 <template>
   <div>
     <section class="card essentials pad-maker">
-      <h3>Revoke your Modrinth token</h3>
+      <h3>Revoke your Feather token</h3>
       <p>
-        Revoking your Modrinth token can have unintended consequences. Please be
+        Revoking your Feather token can have unintended consequences. Please be
         aware that the following could break:
       </p>
       <ul>
@@ -13,7 +13,7 @@
           could fail.
         </li>
         <li>
-          GitHub - if you use a GitHub action that uses the Modrinth API, it
+          GitHub - if you use a GitHub action that uses the Feather API, it
           will cause errors.
         </li>
       </ul>
@@ -24,7 +24,7 @@
             href="https://github.com/settings/connections/applications/3acffb2e808d16d4b226"
             target="_blank"
           >
-            Head to the Modrinth Application page on GitHub.
+            Head to the Feather Application page on GitHub.
           </a>
           Make sure to be logged into the GitHub account you used for Modrinth!
         </li>
@@ -38,7 +38,7 @@
       </p>
       <p>
         <strong>
-          This will log you out of Modrinth, however, when you log back in, your
+          This will log you out of Feather, however, when you log back in, your
           token will be regenerated.
         </strong>
       </p>
@@ -58,7 +58,7 @@ export default {
     CheckIcon,
   },
   head: {
-    title: 'Revoke Token - Modrinth',
+    title: 'Revoke Token - Feather',
   },
   methods: {
     async logout() {
