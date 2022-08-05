@@ -9,7 +9,7 @@ export default {
     ctx.params.projectType = 'mod'
   },
   head: {
-    title: 'Mods - Modrinth',
+    title: 'Mods - Feather',
     meta: [
       {
         hid: 'apple-mobile-web-app-title',
@@ -24,7 +24,7 @@ export default {
       {
         hid: 'og:url',
         name: 'og:url',
-        content: `https://modrinth.com/mods`,
+        content: `https://feather-mod.vercel.app/mods`,
       },
     ],
   },
