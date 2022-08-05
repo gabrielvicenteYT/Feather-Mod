@@ -15,7 +15,7 @@ export default {
     htmlAttrs: {
       lang: 'en',
     },
-    title: 'Modrinth: Download and publish Minecraft Mods',
+    title: 'Feather: Download and publish Minecraft Mods',
     meta: [
       {
         charset: 'utf-8',
@@ -28,7 +28,7 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'Download Minecraft Fabric and Forge mods on Modrinth. Discover and publish projects on Modrinth with a modern, easy to use interface and API.',
+          'Download Minecraft Fabric and Forge mods on Feather. Discover and publish projects on Modrinth with a modern, easy to use interface and API.',
       },
 
       {
@@ -39,7 +39,7 @@ export default {
       {
         hid: 'apple-mobile-web-app-title',
         name: 'apple-mobile-web-app-title',
-        content: 'Modrinth',
+        content: 'Feather',
       },
       {
         hid: 'theme-color',
@@ -55,7 +55,7 @@ export default {
       {
         hid: 'og:site_name',
         name: 'og:site_name',
-        content: 'Modrinth',
+        content: 'Feather',
       },
       {
         hid: 'og:description',
@@ -65,7 +65,7 @@ export default {
       {
         hid: 'og:title',
         name: 'og:title',
-        content: 'Modrinth',
+        content: 'Feather',
       },
       {
         hid: 'og:type',
@@ -75,12 +75,12 @@ export default {
       {
         hid: 'og:url',
         name: 'og:url',
-        content: 'https://www.modrinth.com',
+        content: 'https://www.feather.com',
       },
       {
         hid: 'og:image',
         name: 'og:image',
-        content: 'https://cdn.modrinth.com/modrinth-new.png',
+        content: 'https://cdn.feather.com/modrinth-new.png',
       },
       {
         hid: 'twitter:card',
@@ -120,7 +120,7 @@ export default {
         rel: 'search',
         type: 'application/opensearchdescription+xml',
         href: '/opensearch.xml',
-        title: 'Modrinth mods',
+        title: 'Feather mods',
       },
     ],
     script: [],
@@ -315,14 +315,14 @@ export default {
             .post(
               `${
                 process.env.ARIADNE_URL ||
-                'https://staging-ariadne.modrinth.com/v1/'
+                'https://staging-ariadne.feather-mod.vercel.app//v1/'
               }view`,
               {
                 url: getDomain() + url,
               },
               {
                 headers: {
-                  'Modrinth-Admin': process.env.ARIADNE_ADMIN_KEY || 'feedbeef',
+                  'Feather-Admin': process.env.ARIADNE_ADMIN_KEY || 'feedbeef',
                 },
               }
             )
@@ -348,7 +348,7 @@ function getDomain() {
     } else if (process.env.VERCEL_URL) {
       return `https://${process.env.VERCEL_URL}`
     } else {
-      return 'https://modrinth.com'
+      return 'https://feather.com'
     }
   } else {
     return 'http://localhost:3000'
