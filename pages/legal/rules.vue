@@ -4,7 +4,7 @@
       <h1>Content Rules</h1>
 
       <p>
-        In order to facilitate Modrinth's
+        In order to facilitate Feather's
         <nuxt-link to="/legal/terms">Terms and Conditions</nuxt-link>, all
         Content must obey the following Rules. For more information on what
         exactly Content is, please refer to the Content section of the Terms.
@@ -129,7 +129,7 @@
         appropriate licensing or other rights. This restriction does not apply
         to content within modpacks or to so called "forks" - that is, modified
         copies of a project which have diverged substantially enough from the
-        original project, at the discretion of Modrinth's moderators.
+        original project, at the discretion of Feather's moderators.
       </p>
 
       <p>
@@ -144,7 +144,7 @@
       <h2 id="prohibited-content">5. Prohibited Content</h2>
 
       <p>
-        Content on Modrinth is meant to be appropriate for audiences 13 years of
+        Content on Feather is meant to be appropriate for audiences 13 years of
         age and above.
       </p>
 
@@ -166,13 +166,13 @@
 export default {
   auth: false,
   head: {
-    title: 'Rules - Modrinth',
+    title: 'Rules - Feather',
     meta: [
       {
         hid: 'description',
         name: 'description',
         content:
-          'The Content Rules of Modrinth, an open source modding platform focused on Minecraft.',
+          'The Content Rules of Feather, an open source modding platform focused on Minecraft.',
       },
       {
         hid: 'apple-mobile-web-app-title',
@@ -187,7 +187,7 @@ export default {
       {
         hid: 'og:url',
         name: 'og:url',
-        content: `https://modrinth.com/legal/rules`,
+        content: `https://feather-mod.vercel.app/legal/rules`,
       },
     ],
   },
