@@ -4,7 +4,7 @@
   <Description>Search for mods on Feather, the open source modding platform.</Description>
   <InputEncoding>UTF-8</InputEncoding>
   <Image width="16" height="16" type="image/x-icon">https://modrinth.com/favicon.ico</Image>
-  <Url type="text/html" method="get" template="https://modrinth.com/mods?q={searchTerms}"/>
+  <Url type="text/html" method="get" template="https://feather-mod.vercel.com/mods?q={searchTerms}"/>
   <Developer>Rinth, Inc.</Developer>
   <Attribution>Rinth, Inc.</Attribution>
   <moz:SearchForm>https://feather-mod.vercel.app/mods</moz:SearchForm>
