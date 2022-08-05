@@ -28,7 +28,7 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'Download Minecraft Fabric and Forge mods on Feather. Discover and publish projects on Modrinth with a modern, easy to use interface and API.',
+          'Download Minecraft Fabric and Forge mods on Feather. Discover and publish projects on Feather with a modern, easy to use interface and API.',
       },
 
       {
@@ -348,7 +348,7 @@ function getDomain() {
     } else if (process.env.VERCEL_URL) {
       return `https://${process.env.VERCEL_URL}`
     } else {
-      return 'https://feather.com'
+      return 'https://feather-mod.vercel.app'
     }
   } else {
     return 'http://localhost:3000'
