@@ -19,9 +19,9 @@
         <span>
           <h3>Authorization token</h3>
           <span>
-            Your authorization token can be used with the Modrinth API, the
+            Your authorization token can be used with the Feather API, the
             Minotaur Gradle plugin, and other applications that interact with
-            Modrinth's API. Be sure to keep this secret!
+            Feather's API. Be sure to keep this secret!
           </span>
         </span>
         <input
@@ -35,8 +35,8 @@
         <span>
           <h3>Revoke your token</h3>
           <span
-            >This will log you out of Modrinth, and you will have to log in
-            again to access Modrinth with a new token.</span
+            >This will log you out of Feather, and you will have to log in
+            again to access Feather with a new token.</span
           >
         </span>
         <input
@@ -73,7 +73,7 @@ import ConfirmPopup from '~/components/ui/ConfirmPopup'
 export default {
   components: { ConfirmPopup },
   head: {
-    title: 'Security - Modrinth',
+    title: 'Security - Feather',
   },
   methods: {
     async copyToken() {
@@ -81,7 +81,7 @@ export default {
       this.$notify({
         group: 'main',
         title: 'Copied to clipboard.',
-        text: 'Copied your Modrinth token to the clipboard.',
+        text: 'Copied your Feather token to the clipboard.',
         type: 'success',
       })
     },
