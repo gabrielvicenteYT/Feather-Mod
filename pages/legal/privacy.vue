@@ -4,7 +4,7 @@
       <h1>Privacy Policy</h1>
 
       <p>
-        At Modrinth, accessible from https://modrinth.com, one of our main
+        At Feather, accessible from https://modrinth.com, one of our main
         priorities is the privacy of our visitors. This Privacy Policy document
         contains types of information that is collected and recorded by Modrinth
         and how we use it.
@@ -16,7 +16,7 @@
       </p>
 
       <h2>General Data Protection Regulation (GDPR)</h2>
-      <p>We (Modrinth) are a Data Controller of your information.</p>
+      <p>We (Feather) are a Data Controller of your information.</p>
 
       <p>
         Rinth, Inc. legal basis for collecting and using the personal
@@ -66,7 +66,7 @@
       <h2>Log Files</h2>
 
       <p>
-        Modrinth follows a standard procedure of using log files. These files
+        Feather follows a standard procedure of using log files. These files
         log visitors when they visit websites. All hosting companies do this and
         a part of hosting services' analytics. The information collected by log
         files include internet protocol (IP) addresses, browser type, Internet
@@ -80,7 +80,7 @@
       <h2>Cookies and Web Beacons</h2>
 
       <p>
-        Like any other website, Modrinth uses 'cookies'. These cookies are used
+        Like any other website, Feather uses 'cookies'. These cookies are used
         to store information including visitors' preferences, and the pages on
         the website that the visitor accessed or visited. The information is
         used to optimize the users' experience by customizing our web page
@@ -104,7 +104,7 @@
       <p>
         Third-party ad servers or ad networks uses technologies like cookies,
         JavaScript, or Web Beacons that are used in their respective
-        advertisements and links that appear on Modrinth, which are sent
+        advertisements and links that appear on Feather, which are sent
         directly to users' browser. They automatically receive your IP address
         when this occurs. These technologies are used to measure the
         effectiveness of their advertising campaigns and/or to personalize the
@@ -119,7 +119,7 @@
       <h2>Third Party Privacy Policies</h2>
 
       <p>
-        Modrinth's Privacy Policy does not apply to other advertisers or
+        Feather's Privacy Policy does not apply to other advertisers or
         websites. Thus, we are advising you to consult the respective Privacy
         Policies of these third-party ad servers for more detailed information.
         It may include their practices and instructions about how to opt-out of
@@ -142,7 +142,7 @@
       </p>
 
       <p>
-        Modrinth does not knowingly collect any Personal Identifiable
+        Feather does not knowingly collect any Personal Identifiable
         Information from children under the age of 13. If you think that your
         child provided this kind of information on our website, we strongly
         encourage you to contact us immediately and we will do our best efforts
@@ -154,7 +154,7 @@
       <p>
         This Privacy Policy applies only to our online activities and is valid
         for visitors to our website with regards to the information that they
-        shared and/or collect in Modrinth. This policy is not applicable to any
+        shared and/or collect in Feather. This policy is not applicable to any
         information collected offline or via channels other than this website.
       </p>
 
@@ -172,13 +172,13 @@
 export default {
   auth: false,
   head: {
-    title: 'Privacy - Modrinth',
+    title: 'Privacy - Feathr',
     meta: [
       {
         hid: 'description',
         name: 'description',
         content:
-          'The privacy policy of Modrinth, an open source modding platform. Modrinth currently supports Minecraft, including the forge and fabric mod loaders.',
+          'The privacy policy of Feather, an open source modding platform. Modrinth currently supports Minecraft, including the forge and fabric mod loaders.',
       },
       {
         hid: 'apple-mobile-web-app-title',
@@ -193,7 +193,7 @@ export default {
       {
         hid: 'og:url',
         name: 'og:url',
-        content: `https://modrinth.com/legal/privacy`,
+        content: `https://feather-mod.vercel.com/legal/privacy`,
       },
     ],
   },
