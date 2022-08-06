@@ -213,7 +213,7 @@ export default {
     }
   },
   head: {
-    title: 'Moderation - Modrinth',
+    title: 'Moderation - Feather',
   },
   computed: {
     moderationTypes() {
