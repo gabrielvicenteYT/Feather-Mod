@@ -492,7 +492,7 @@
             author has marked it as such or because it has been found to be in
             violation of one of
             <nuxt-link to="/legal/rules">Feather's content rules</nuxt-link>.
-            Modrinth makes no guarantees as to whether {{ project.title }} is
+            Feather makes no guarantees as to whether {{ project.title }} is
             safe for use in a multiplayer context.
           </div>
           <div
