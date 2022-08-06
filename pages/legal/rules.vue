@@ -120,7 +120,7 @@
       <p>
         You must own or have the necessary licenses, rights, consents, and
         permissions to store, share, or distribute the Content that is uploaded
-        under your Modrinth account.
+        under your Feather account.
       </p>
 
       <p>
