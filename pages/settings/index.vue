@@ -161,7 +161,7 @@ export default {
     this.projectLayout = this.$store.state.cosmetics.projectLayout
   },
   head: {
-    title: 'Settings - Modrinth',
+    title: 'Settings - Feather',
   },
   methods: {
     changeTheme() {
