@@ -198,7 +198,7 @@ export default {
   },
   head() {
     return {
-      title: this.user.username + ' - Modrinth',
+      title: this.user.username + ' - Feather',
       meta: [
         {
           hid: 'og:type',
@@ -225,12 +225,12 @@ export default {
           name: 'description',
           content:
             this.user.bio +
-            ' - View Minecraft mods on Modrinth today! Modrinth is a new and modern Minecraft modding platform.',
+            ' - View Minecraft mods on Feather today! Feather is a new and modern Minecraft modding platform.',
         },
         {
           hid: 'og:url',
           name: 'og:url',
-          content: `https://modrinth.com/user/${this.user.id}`,
+          content: `https://feather-mod.vercel.app/user/${this.user.id}`,
         },
         {
           hid: 'og:image',
