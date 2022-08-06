@@ -54,7 +54,7 @@
         Content must not make or share intentionally wrong or misleading claims.
         This includes but is not limited to claims regarding the Content itself,
         claims regarding other Content, and claims not relating to Content on
-        Modrinth.
+        Feather.
       </p>
 
       <h3 id="general-expectations">2.1. General expectations</h3>
