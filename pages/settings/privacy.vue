@@ -23,7 +23,7 @@
     </div>
     <div class="privacy-settings-container">
       <div>
-        Modrinth relies on different providers and in-house tools to allow us to
+        Feather relies on different providers and in-house tools to allow us to
         provide custom-tailored experiences and personalized advertising. You
         can change your privacy settings at any time by going to this settings
         page or via the footer of any page.
@@ -92,7 +92,7 @@ export default {
     }
   },
   head: {
-    title: 'Privacy Settings - Modrinth',
+    title: 'Privacy Settings - Feather',
   },
   options: {
     auth: false,
