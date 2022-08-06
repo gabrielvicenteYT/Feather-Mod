@@ -98,7 +98,7 @@
 
       <P
         >You may consult this list to find the Privacy Policy for each of the
-        advertising partners of Modrinth.</P
+        advertising partners of Feather.</P
       >
 
       <p>
