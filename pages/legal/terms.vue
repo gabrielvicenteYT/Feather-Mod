@@ -120,23 +120,23 @@
       <p>
         When you upload text, software, mods, scripts, graphics, photos, audio,
         videos, links, interactive features and other materials that may be
-        viewed on or accessed through Modrinth, we refer to it as "Content".
+        viewed on or accessed through Feather, we refer to it as "Content".
       </p>
 
       <ul>
         <li>
           You are responsible for all activity and Content that is uploaded
-          under your Modrinth account.
+          under your Feather account.
         </li>
         <li>
           You retain all of your ownership rights to your Content. We do not
           claim any ownership in or to any of your Content.
         </li>
         <li>
-          To enable us to provide the services of Modrinth, you hereby grant us
+          To enable us to provide the services of Feather, you hereby grant us
           a worldwide, non-exclusive, royalty-free, and unrestricted license to
           use, reproduce, distribute copies, prepare derivative works of, or
-          display Content in connection with Modrinth in any medium and for any
+          display Content in connection with Feather in any medium and for any
           purpose (including commercial purposes).
         </li>
       </ul>
