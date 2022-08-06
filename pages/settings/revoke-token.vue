@@ -26,7 +26,7 @@
           >
             Head to the Feather Application page on GitHub.
           </a>
-          Make sure to be logged into the GitHub account you used for Modrinth!
+          Make sure to be logged into the GitHub account you used for Feather!
         </li>
         <li>
           Press the big red "Revoke Access" button next to the "Permissions"
