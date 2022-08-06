@@ -98,7 +98,7 @@ export default {
     await this.$store.dispatch('user/fetchNotifications')
   },
   head: {
-    title: 'Notifications - Modrinth',
+    title: 'Notifications - Feather',
   },
   computed: {
     notificationTypes() {
