@@ -7,7 +7,7 @@
     >
       <div class="card banner">
         <span>
-          Modrinth uses cookies for various purposes, including advertising.<br />
+          Feather uses cookies for various purposes, including advertising.<br />
           We encourage you to review your privacy settings by clicking on the
           button below:
         </span>
