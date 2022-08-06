@@ -49,7 +49,7 @@
         <span>
           <h3>Delete project</h3>
           <span>
-            Removes your project from Modrinth's servers and search. Clicking on
+            Removes your project from Feather's servers and search. Clicking on
             this will delete your project, so be extra careful!
           </span>
         </span>
