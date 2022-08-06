@@ -491,7 +491,7 @@
             {{ project.title }} is not viewable in search — either because the
             author has marked it as such or because it has been found to be in
             violation of one of
-            <nuxt-link to="/legal/rules">Modrinth's content rules</nuxt-link>.
+            <nuxt-link to="/legal/rules">Feather's content rules</nuxt-link>.
             Modrinth makes no guarantees as to whether {{ project.title }} is
             safe for use in a multiplayer context.
           </div>
@@ -509,7 +509,7 @@
             class="card warning"
             aria-label="Warning"
           >
-            {{ project.title }} has been marked as abandoned by Modrinth's
+            {{ project.title }} has been marked as abandoned by Feather's
             moderators. {{ project.title }} will not receive any further updates
             unless the author decides to return.
           </div>
@@ -757,7 +757,7 @@ export default {
         {
           hid: 'description',
           name: 'description',
-          content: `${this.project.title}: ${this.project.description} View other minecraft mods on Modrinth today! Modrinth is a new and modern Minecraft modding platform supporting both the Forge and Fabric mod loaders.`,
+          content: `${this.project.title}: ${this.project.description} View other minecraft mods on Feather today! Feather is a new and modern Minecraft modding platform supporting both the Forge and Fabric mod loaders.`,
         },
         {
           hid: 'og:url',
